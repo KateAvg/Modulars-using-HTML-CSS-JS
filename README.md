@@ -1,7 +1,5 @@
 # Modulars-using-HTML-CSS-JS
 
-![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
-
 This repository contains a collection of modular web components designed for easy integration into your projects. Each component is self-contained and can be reused across different parts of a website or application. The code includes a **responsive image gallery with a modal popup**, as well as other modular UI elements, built with **HTML**, **CSS**, and **vanilla JavaScript**.
 
 ## Features:
