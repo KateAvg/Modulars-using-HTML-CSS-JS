@@ -52,7 +52,7 @@ This repository contains a collection of modular web components designed for eas
 ## Installation:
 
 1. Clone or download the repository.
-2. Open the `index.html` file in a web browser.
+2. Open the `module.html` file in a web browser.
 3. Add more images to the gallery by inserting new `<img>` elements with the class `.gallery-img`.
 
 ## Customization:
