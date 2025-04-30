@@ -1,0 +1,141 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container for the modules */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+ /*Profile Card*/
+  .Profile-card
+  {
+    text-align: center;
+  }
+
+  .Profile-card img
+  {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .Profile-card h3
+  {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+
+  .Profile-card p
+  {
+    color: #777;
+  }
+
+  /*Contact Form*/
+
+  .contact-form
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-form input,
+  .contact-form textarea
+  {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .contact-form button
+  {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover
+  {
+    background-color: #555;
+  }
+
+  /*Gallery*/
+  .gallery 
+  {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .gallery img
+  {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+  }
+
+  /* Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+}
+
+#modal-close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+  /*Footer*/
+
+  .footer
+  {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+  }

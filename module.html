@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modular Layout</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Modular Layout</h1>
+        </header>
+
+        <div class="container">
+            <!--Profile card-->
+            <section class="module-1">
+                <h2>Profile</h2>
+                <div class="Profile-card">
+                    <img src="♡.jpg" alt="User Profile" >
+                    <h2>Elune</h2>
+                    <p>Streamer|Gamer|Creator</p>
+                </div>
+            </section>
+
+            <!--Contact Form-->
+            <section class="module-2">
+                <h2>Contact</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your E-mail" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+
+            <!--Gallery-->
+            <section class="module-3">
+                <h2>Gallery</h2>
+                <div class="gallery">
+                    <img  class= "gallery-img" src="12.jpg" alt="Gallery pic 1">
+                    <img class= "gallery-img" src="“A Time Of Love And War”_ Amazing Digital Art By Wang Ling – Design You Trust — Design Daily Since 2007.jpg"alt="Gallery pic 2">
+                    <img class= "gallery-img" src="αρχείο λήψης.jpg" alt="Gllaery pic 3 ">
+                </div>
+            </section>
+        </div>
+
+            <!-- Modal for Gallery -->
+        <div id="modal" class="modal">
+            <span id="modal-close">&times;</span>
+            <img id="modal-img" src="" alt="Enlarged view">
+        </div>
+
+<script src="script.js"></script>
+
+
+        <footer class="footer">
+            <p> &copy; 2025 Modular Layout Example </p>
+        </footer>
+    </body>
+</html>
